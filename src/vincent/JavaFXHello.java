@@ -11,8 +11,8 @@ public class JavaFXHello extends Application {
   
 	@Override 
 	public void start(Stage primaryStage) throws Exception { 
-		final Rectangle rectangle = new Rectangle(40, 50, 150, 100); 
-		rectangle.setFill(Color.RED); 
+		final Rectangle rectangle = new Rectangle(50, 50, 150, 100); 
+		rectangle.setFill(Color.GREEN); 
 		final Pane root = new Pane(); 
 		root.getChildren().setAll(rectangle); 
 		final Scene scene = new Scene(root, 300, 250); 
